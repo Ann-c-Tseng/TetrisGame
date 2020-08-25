@@ -1,0 +1,17 @@
+/* 200px x 400px grid */
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #5F4B95;
+}
+
+.grid > div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino {
+  background-color: #99C1B9;
+}
