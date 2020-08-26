@@ -1,17 +1,79 @@
-/* 200px x 400px grid */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&family=Roboto&display=swap');
+
+body {
+  background-color: #white;
+}
+
+.intro {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #ACC8E5;
+  border-radius: 5%;
+}
+
+h1 {
+  margin-left: 40%;
+  color: #F15941;
+}
+
+h3 {
+  margin-left: 40%;
+  font-size: 30px;
+  color: #F47A67;
+}
+
+.instructions {
+  position: absolute;
+  color: #F0472D;
+}
+
+button {
+  margin-left: 41%;
+  background-color: #ACC8E5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+
 .grid {
   width: 200px;
   height: 400px;
   display: flex;
   flex-wrap: wrap;
-  background-color: #5F4B95;
+  background-color: #48ADAB;
 }
 
-.grid > div {
+.grid div {
   height: 20px;
   width: 20px;
 }
 
 .tetromino {
-  background-color: #99C1B9;
+  background-color: red;
+}
+
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
 }

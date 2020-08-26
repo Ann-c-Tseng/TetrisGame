@@ -9,242 +9,284 @@
 
   <!-- Main -->
   <body>
-    <h1> Welcome to Tetris! </h1>
-    <h3> Score: <span id = "score"> 0 </span> </h3>
-    <button> Begin or Pause </button>
 
-    <div class = "grid">
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+    <div class = "intro">
+      <h1> Welcome to Tetris! </h1>
+      <h3> Score: <span id = "score"> 0 </span> </h3>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+      <div class = "instructions">
+        <p> Instructions: <p>
+          <p>
+            Keys: UP = rotate | DOWN = move down faster |
+            <br>
+            LEFT = move left | RIGHT = move right
+            <br><br>
+            The up and coming tetromino will be show to the right <br>
+            Objective: Fill the bottom row to rack up points! See how far you can go. <br>
+            Press the "Begin or Pause" button to start...
+            <br><br><br><br>
+            Reload the page to start a new round!
+          </p>
+      </div>
+    </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+    <button id= "start-button"> Begin or Pause </button>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+    <div class = "container">
+      <div class = "grid">
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
-      <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
 
-<!-- Taken to line the bottom of grid, prevent blocks from going beyond -->
-      <div class = "taken"> </div>
-      <div class = "taken"> </div>
-      <div class = "taken"> </div>
-      <div class = "taken"> </div>
-      <div class = "taken"> </div>
-      <div class = "taken"> </div>
-      <div class = "taken"> </div>
-      <div class = "taken"> </div>
-      <div class = "taken"> </div>
-      <div class = "taken"> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+
+  <!-- Taken to line the bottom of grid, prevent blocks from going beyond -->
+        <div class = "taken"> </div>
+        <div class = "taken"> </div>
+        <div class = "taken"> </div>
+        <div class = "taken"> </div>
+        <div class = "taken"> </div>
+        <div class = "taken"> </div>
+        <div class = "taken"> </div>
+        <div class = "taken"> </div>
+        <div class = "taken"> </div>
+        <div class = "taken"> </div>
+      </div>
+
+
+      <!-- To show upcoming shapes -->
+      <div class = "mini-grid">
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+        <div> </div>
+      </div>
     </div>
 
   </body>
